@@ -1,0 +1,20 @@
+/* Footer.css */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;  /* Animación para ocultar y mostrar el footer */
+  }
+  
+  .footer.hidden {
+    transform: translateY(100%);  /* Desplazamos el footer hacia abajo fuera de la vista */
+  }
+  
+  .footer.visible {
+    transform: translateY(0);  /* Lo mostramos en su posición original */
+  }
+  
+  

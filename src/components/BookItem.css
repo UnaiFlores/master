@@ -1,0 +1,30 @@
+.book-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .book-item__link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .book-item__image {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .book-item__title {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .book-item__price {
+    font-size: 14px;
+    color: #ff5722;
+  }
+  

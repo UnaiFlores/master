@@ -1,0 +1,48 @@
+.checkout-page__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkout-page__item-image {
+  width: 50px;
+  height: 75px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.checkout-page__item-details {
+  flex-grow: 1;
+}
+
+.checkout-page__item-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.checkout-page__item-price {
+  font-size: 14px;
+  color: #777;
+}
+
+.checkout-page__total {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checkout-page__button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.checkout-page__button:hover {
+  background-color: #45a049;
+}
+
+  

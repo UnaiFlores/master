@@ -1,0 +1,88 @@
+/* Estilos generales de la página del carrito */
+.cart-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor de los elementos del carrito */
+.cart-page__items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Estilos de los ítems del carrito */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Imagen del libro en el carrito */
+.cart-item__image {
+  width: 50px;
+  height: 75px;
+  object-fit: cover;
+}
+
+/* Información del libro (título y precio) */
+.cart-item__info {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+/* Título del libro */
+.cart-item__title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Precio del libro */
+.cart-item__price {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Botón de eliminar ítem */
+.cart-item__remove-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.cart-item__remove-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Estilos para el botón de proceder al checkout */
+.cart-page__checkout {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cart-page__checkout-btn {
+  background-color: green; /* Color de fondo verde */
+  color: white; /* Color del texto blanco */
+  padding: 12px 24px; /* Aumentar el tamaño del botón (un poco más grande) */
+  font-size: 18px; /* Aumentar el tamaño de la fuente */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Hacerlo clickeable */
+  transition: background-color 0.3s; /* Efecto de transición para el hover */
+}
+
+.cart-page__checkout-btn:hover {
+  background-color: darkgreen; /* Cambiar el color a verde más oscuro al pasar el mouse */
+}
+
+
+
+  

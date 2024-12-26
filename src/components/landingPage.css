@@ -1,0 +1,15 @@
+.landing-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .landing-page__title {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .landing-page__description {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
